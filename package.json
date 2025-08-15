@@ -1,0 +1,19 @@
+{
+  "name": "MY-APP-E2E",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test:ios:debug": "detox test --configuration ios.sim.debug",
+    "test:android:debug": "detox test --configuration android.emu.debug",
+    "test:android:trace": "detox test --configuration android.emu.debug --loglevel trace"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "detox": "^20.40.2",
+    "jest": "^30.0.5",
+    "jest-circus": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
