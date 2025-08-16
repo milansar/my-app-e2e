@@ -6,4 +6,7 @@ beforeAll(async () => {
   it('should display welcome text', async () => {
     await expect(element(by.text('Welcome!'))).toBeVisible();
   });
+   it('should display explore text', async () => {
+    await expect(element(by.text('Explore'))).toBeVisible();
+  });
 });

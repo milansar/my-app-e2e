@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test:ios:debug": "detox test --configuration ios.sim.debug",
-    "test:android:debug": "detox test --configuration android.emu.debug",
-    "test:android:trace": "detox test --configuration android.emu.debug --loglevel trace"
+    "e2e:ios:debug": "detox test --configuration ios.sim.debug",
+    "e2e:android:debug": "detox test --configuration android.emu.debug",
+    "e2e:android:debug:trace": "detox test --configuration android.emu.debug --loglevel trace"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",

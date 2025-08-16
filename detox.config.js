@@ -14,8 +14,8 @@ module.exports = {
     },
     'android.emu.debug': {
       type: 'android.apk',
-      binaryPath: 'build/android/MyApp-release.apk',
-      testBinaryPath: 'build/android/MyApp-androidTest.apk'
+      binaryPath: 'build/android/myapp.apk',
+      testBinaryPath: 'build/android/myapp-androidTest.apk',
     }
   },
   devices: {
@@ -25,7 +25,7 @@ module.exports = {
     },
     emulator: {
       type: 'android.emulator',
-      device: { avdName: 'Pixel_3a_API_34_extension_level_7_arm64-v8a' }
+      device: { avdName: 'Android_Phone' }
     }
   },
   configurations: {
