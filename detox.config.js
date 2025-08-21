@@ -21,6 +21,11 @@ module.exports = {
       type: 'android.apk',
       binaryPath: 'build/android/myapp-release.apk',
       testBinaryPath: 'build/android/myapp-androidTest.apk',
+    },
+     'android.emu.pl': {
+      type: 'android.apk',
+      binaryPath: 'build/android/pl-release.apk',
+      testBinaryPath: 'build/android/pl-androidTest.apk',
     }
   },
   devices: {
@@ -45,6 +50,10 @@ module.exports = {
     'android.emu.release': {
       device: 'emulator',
       app: 'android.emu.release'
+    },
+     'android.emu.pl': {
+      device: 'emulator',
+      app: 'android.emu.pl'
     }
   }
 };

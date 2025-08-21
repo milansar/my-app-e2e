@@ -3,10 +3,10 @@ describe('Example Test', () => {
 beforeAll(async () => {
     await device.launchApp();
   });
-  it('should display welcome text', async () => {
-    await expect(element(by.text('Welcome!'))).toBeVisible();
+  it('should display Join us text', async () => {
+    await expect(element(by.text('Join Us'))).toBeVisible();
   });
-   it('should display explore text', async () => {
+   it('should display Sign In', async () => {
     await expect(element(by.text('Explore'))).toBeVisible();
   });
 });
