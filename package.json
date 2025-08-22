@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "e2e:ios:debug": "detox test --configuration ios.sim.debug",
+    "e2e:ios:pl": "detox test --configuration ios.sim.pl",
     "e2e:android:debug": "detox test --configuration android.emu.debug",
     "e2e:android:release": "detox test --configuration android.emu.release",
     "e2e:android:pl": "detox test --configuration android.emu.pl",

@@ -12,6 +12,11 @@ module.exports = {
       type: 'ios.app',
       binaryPath: 'build/ios/myapp.app'
     },
+     'ios.sim.pl': {
+      type: 'ios.app',
+      binaryPath: 'build/ios/PowerleagueStaging.app'
+    }
+    ,
     'android.emu.debug': {
       type: 'android.apk',
       binaryPath: 'build/android/myapp.apk',
@@ -42,6 +47,10 @@ module.exports = {
     'ios.sim.debug': {
       device: 'simulator',
       app: 'ios.sim.debug'
+    },
+     'ios.sim.pl': {
+      device: 'simulator',
+      app: 'ios.sim.pl'
     },
     'android.emu.debug': {
       device: 'emulator',
